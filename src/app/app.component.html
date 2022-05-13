@@ -1,3 +1,5 @@
-<app-products></app-products>
-
-{{title | titlecase}}
+<app-products>
+    <div class="img">
+        <img [src]="imgLink" alt="Image" (newImage)="imgChanged($event)">
+    </div>
+</app-products>

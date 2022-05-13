@@ -1,0 +1,17 @@
+.btn {
+    display: block;
+    margin: 0 auto;
+    background-color: darkorange;
+    border: none;
+    padding: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.btn:hover {
+    background-color: rgb(216, 120, 3);
+}
